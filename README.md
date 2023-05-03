@@ -4,7 +4,7 @@ CodeClause Random Password Generator - This is a GUI Based Random Password Gener
 
 ### Requirements:
 - Python 3.6 or above
-- Tkinter Module
+- Tkinter Module (Built-in)
 - CustomTkinter Module
 - Random Password Generator Module
 - pyperclip Module
