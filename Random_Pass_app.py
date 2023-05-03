@@ -1,15 +1,8 @@
 import customtkinter as ctk
 from password_generator import PasswordGenerator
 
-MIN_UPPER = 0
-MIN_LOWER = 0
-MIN_NUM = 0
-MIN_SYM = 0
-
 
 def generate_password(pass_length, num, sym):
-    section = int(pass_length) // 4
-
     pwo = PasswordGenerator()
     # All properties are optional
     pwo.minlen = int(pass_length)
